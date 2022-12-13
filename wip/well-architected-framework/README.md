@@ -16,9 +16,9 @@ Having a "Cardano Well-Architected Framework" in a similar fashion to the mentio
 ## Roadmap / Status
 
 - [ ] Define scope for v1
+- [ ] Prepare draft document
 - [ ] Identify KOLs for each topic
 - [ ] Gather content from KOLs
-- [ ] Prepare draft document
 - [ ] Gather feedback
 - [ ] Publish v1
 
@@ -28,6 +28,15 @@ Having a "Cardano Well-Architected Framework" in a similar fashion to the mentio
 - By submitting a PR with changes to the scope (table of contents)
 - By creating a new .md file that includes relevant information on any of the specific topics (it can be references to outside material or original content)
 - By proposing candidate KOLs that would pontentially be able to fullfil the content for any of the topics.
+
+## Maintenance of this Framework
+- How will we keep this framework up to date over time?
+- Define ownership and responsibilities
+
+## Versioning
+- What is our plan for breaking changes? (ie major upgrades to Plutus)
+- When will the need for discrete versions to be acknowledged?
+- Perhaps versioning can be within the scope of **Best Practices** in each Discipline?
 
 ## Scope
 
@@ -40,14 +49,23 @@ The following is a _live_ list of topics that the Well-Architected framework for
 5. Decentralisation
 6. Scalability
 7. UX/UI
+8. Documentation
+9. Maintainability
+10. Testing / Tooling
 
-Each discipline describes relevant _principles_ and _best practices_.
+> Note: #8 + #9 could be combined, just as #10 could be split in two. We will adjust this list of Disciplines as needed as we add details to the outline.
+
+Each discipline describes relevant _principles_ and _best practices_. _Reference Implementations_ and _Further Reading / Related Articles_ are provided so that developers can learn from research and by example about how to apply principles and best practices.
 
 > **Principle**: a fundamental rule or guideline that should be followed when designing and building software applications. Principles are typically broad, general statements that provide guidance and direction for software development.
 
 > **Best Practice**: a specific approach or technique that has been shown to be effective in solving a particular problem or achieving a specific goal in software development. Best practices are typically based on the experiences and expertise of experts in the field, and they provide guidance on how to design and implement software in a way that is maintainable, scalable, and extensible.
 
 > **Reference Implementations**: a set of examples to illustrate Principles and Best Practices. Reference Implementations may include live projects, specific architectures, or topologies for decentralised applications.
+
+> **Related Articles**: for example, common links, research, common exploits
+
+> Introduction to each Discipline: What are key things people will have to consider during dapp development?
 
 ### Reliability
 Reliability refers to the ability of a system to consistently provide access to data and services, regardless of hardware / software failures and excessive load. Reliability implies responsiveness, consistency and correctness of the data and processes of the system. The end-goal is to provide users with access to the resources they need, whenever they need them, without interruption.
@@ -154,6 +172,22 @@ Project architectures should be designed with scaling in mind, even when startin
 ### User Experience UX/UI
 User Experience covers the component architecture and UI Elements of a dApp, that ensure the smoothest experience possible. Whether it’s reading data of the blockchain, or submitting new data. The experience shouldn’t be any different from interacting with a regular WebApp.
 
+#### Principles
+#### Best Practices
+#### Reference Implementations
+
+
+### Documentation
+#### Principles
+#### Best Practices
+#### Reference Implementations
+
+### Maintainability
+#### Principles
+#### Best Practices
+#### Reference Implementations
+
+### Testing / Tooling
 #### Principles
 #### Best Practices
 #### Reference Implementations
